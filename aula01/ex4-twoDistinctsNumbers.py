@@ -19,3 +19,15 @@ for i in range(0, linesNumber):
     results.append(str(fLfN) + " " + str(sLfN))
 for item in results:
     print(item)
+
+"""
+Input: 
+- the first one is a number of lines that will be input (important for C programs, for example)
+- the next following lines contain a list of numbers separeted by a space (" ")
+
+Ex.:
+3
+1 2 3 4
+1 5 4 7
+4 10 16 20
+"""

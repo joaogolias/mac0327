@@ -8,3 +8,8 @@ def verifyEvenDivision(num):
 
 watermelonWeight = int(input())
 verifyEvenDivision(watermelonWeight)
+
+"""
+Input: a single number that represents watermelon weight
+ex: 8
+"""
