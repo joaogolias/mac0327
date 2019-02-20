@@ -102,3 +102,7 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+.idea/
+/.idea/
+mac0327.iml

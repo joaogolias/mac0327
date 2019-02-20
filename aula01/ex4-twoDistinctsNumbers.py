@@ -1,18 +1,20 @@
-def getFirstLineFirstNumber(text):
+def get_first_line_first_number(text):
     numbers = text.split(" ")
     return int(numbers[0])
 
-def getSecondLineFirstNumber(text):
+
+def get_second_line_first_number(text):
     numbers = text.split(" ")
-    return int(numbers[3])
+    return int(numbers[2])
+
 
 linesNumber = int(input())
 results = []
 for i in range(0, linesNumber):
     linesRange = input()
-    fLfN = getFirstLineFirstNumber(linesRange)
-    sLfN = getSecondLineFirstNumber(linesRange)
-    if(fLfN == sLfN):
+    fLfN = get_first_line_first_number(linesRange)
+    sLfN = get_second_line_first_number(linesRange)
+    if fLfN == sLfN:
         sLfN += 1
     results.append(str(fLfN) + " " + str(sLfN))
 for item in results:

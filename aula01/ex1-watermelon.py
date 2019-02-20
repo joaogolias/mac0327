@@ -1,9 +1,10 @@
-def verifyEvenDivision(input):
-    for i in range(2, watermelonWeight, 2):
-        if ((watermelonWeight-i)%2 == 0):
+def verifyEvenDivision(num):
+    for i in range(2, num, 2):
+        if (num-i)%2 == 0:
             print("YES")
             return
     print("NO")
     
+
 watermelonWeight = int(input())
 verifyEvenDivision(watermelonWeight)
