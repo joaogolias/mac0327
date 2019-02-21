@@ -1,4 +1,4 @@
-def sumStringNumbers(text):
+def sum_string_numbers(text):
     sum = 0 
     for c in text:
         if c != " ":
@@ -6,12 +6,12 @@ def sumStringNumbers(text):
     return sum
 
 
-carsNumber = int(input())
+cars_number = int(input())
 people = input()
-integerDivision = sumStringNumbers(people)//5
-if sumStringNumbers(people)%5 != 0:
-    integerDivision += 1
-print(integerDivision)
+integer_division = sum_string_numbers(people)//5
+if sum_string_numbers(people) % 5 != 0:
+    integer_division += 1
+print(integer_division)
 
 """
 Input: 
