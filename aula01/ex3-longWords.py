@@ -38,3 +38,10 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+"""
+Other way to solve: if the text length is bigger than 10, so we should print:
+[initial letter][length-2][last letter]
+Let TEXT be a String, so the answer is:
+TEXT[0]+len(TEXT)-2+TEXT[len(TEXT)]
+"""
